@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    height: 90%;
+}
+.encabezado-1{
+    display: grid;
+    grid-template-columns: 20% 80%;   
+    background-color:#FFCA6B;
+}
+
+.content-logo{
+    display: grid;
+    grid-template-rows: 85% 15%;
+    padding: 5px;
+}
+.logo{
+    border:2px solid #ddd;
+    border-radius: 50%;
+    padding: 5px;
+    width: 60%;
+    align-items: center;
+    margin: auto;
+    
+}
+.title-logo{
+    text-align: center;
+    margin: 0 10%;
+   color: #121F3D;
+   font-weight: lighter;
+
+}
+.content-menu{
+    display: grid;
+    grid-template-rows: 60% 40%;
+}
+.title{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background-color: #121F3D;
+}
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    letter-spacing: 10px;
+}
+.encabezado-1 .content-menu .title span{
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    background-color:#03091E;
+}
+.encabezado-1 .content-menu .title span a{
+    color:#509AC7;
+    text-decoration: none;
+    margin: 15px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background: #1A2F42;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 15px;
+    display: inline-block;
+}
+nav ul li a{
+    color:white;
+    display: block;
+    padding: 20px 30px;
+    text-decoration: none;
+
+}
+.social{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+.social-icon{
+    width: 30px;
+}
+.social span{
+    margin-left: 10px;
+}
+.container{
+    display:grid;
+    grid-template-columns: 30% 70%;
+}
+
+.m-b{
+    margin-bottom: 25px;
+}
+.d-flex-c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d-flex-w{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.d-grid{
+    display:grid;
+}
+.box{
+    border: 1px #03091E solid;
+    width: 20%;
+    flex-grow: 1;
+}
+
+nav ul li a:hover{
+    background-color:#509AC7;
+}
+.social span a img:hover{
+    background-color: #509AC7;
+}
+
+.encabezado-1 .content-menu .title span a:hover{
+    color:#FFCA6B;
+}
